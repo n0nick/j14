@@ -248,6 +248,18 @@ body {
   text-shadow: 1px 1px 0px black, 2px 2px 0px #444, 3px 3px 0px #444, 4px 4px 0px #444, 5px 5px 0px #444, 3px 3px 0px #444, 3px 3px 0px #444;
 }
 
+header {
+  position :relative;
+}
+header #social {
+  width: 50px;
+  text-align: left;
+  direction: ltr;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+
 section {
   margin-bottom: 20px;
 }

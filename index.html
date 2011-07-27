@@ -40,7 +40,13 @@
     <header id="logo">
       <h1>#J14</h1>
       <h2>טוויט טוויט</h2>
+      <aside id="social">
+        <g:plusone></g:plusone>
+        <a href="http://twitter.com/share" class="twitter-share-button" data-text="כל פידי המהפכה" data-count="horizontal" data-via="n0nick">Tweet</a>
+        <div id="fb-root"></div><fb:like href="http://labs.n0nick.net/j14" layout="standard" width="45" colorscheme="dark"></fb:like>
+      </aside>
     </header>
+
     <div id="main" role="main">
 
       <section id="twitter">
@@ -65,7 +71,16 @@
 
     </div>
     <footer>
-      <p>&#x2605;</p>
+      <p>
+        &#x2605;
+      </p>
+      <p>
+        מאת <a href="http://n0nick.net/">סתם איזה נודניק</a>.
+        במקור על-ידי <a href="http://omerk.co.il/">רוחי</a> ו<a href="http://it.ai/">פולי</a>.
+      </p>
+      <p>
+        <a href="https://github.com/n0nick/j14">הכל פתוח</a> ואתם מוזמנים לעזור.
+      </p>
     </footer>
   </div> <!--! end of #container -->
 
@@ -79,6 +94,9 @@
 
   <!-- scripts concatenated and minified via ant build script-->
   <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+  <script src="http://platform.twitter.com/widgets.js"></script>
+  <script src="http://connect.facebook.net/en_US/all.js#appId=128303977259970&amp;xfbml=1"></script>
+  <script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
   <!-- end scripts-->
