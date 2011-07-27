@@ -263,6 +263,10 @@ section {
   border-radius: 5px;
   width: auto !important;
 }
+#stories .triangle {
+  margin-left: 0;
+  margin-right: 30px;
+}
 
 #facebook, #map {
   border: 15px solid #a60000;
