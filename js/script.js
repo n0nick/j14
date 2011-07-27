@@ -11,7 +11,7 @@ new TWTR.Widget({
   title: '#j14',
   subject: 'פיד המהפכה',
   width: 'auto',
-  height: 300,
+  height: 350,
   theme: {
     shell: {
       background: '#a60000',
@@ -19,8 +19,8 @@ new TWTR.Widget({
     },
     tweets: {
       background: '#404040',
-      color: '#cccccc',
-      links: '#ff3030'
+      color: '#000000',
+      links: '#ff4040'
     }
   },
   features: {

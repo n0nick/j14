@@ -270,6 +270,11 @@ section {
 #twitter .twtr-avatar {
   float: right;
 }
+#twitter .twtr-tweet {
+  background: #fff;
+  margin: 15px;
+  border-radius: 5px;
+}
 
 #stories > div {
   border-radius: 5px;
@@ -279,18 +284,26 @@ section {
   margin-left: 0;
   margin-right: 30px;
 }
+#stories .rssincl-head,
+#stories .rssincl-content {
+  border-radius: 5px;
+}
 
 #facebook, #map {
   border: 15px solid #a60000;
   border-radius: 5px;
+  background-color: #a60000;
 }
 
 #facebook {
-  background-color: #fff;
 }
 
 #map p {
   text-align: center;
+  margin: 0;
+}
+#map p a {
+  color: #90a0ea;
 }
 
 section > iframe {
@@ -298,6 +311,8 @@ section > iframe {
   height: 400px;
   border: 0;
   overflow: hidden;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 footer p {
