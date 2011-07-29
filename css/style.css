@@ -319,6 +319,15 @@ footer p {
   text-align: center;
 }
 
+#livemap {
+  border-radius: 5px;
+  border: 15px solid #a60000;
+}
+#map-canvas {
+  height: 500px;
+  border-radius: 5px;
+}
+
 
 
 
